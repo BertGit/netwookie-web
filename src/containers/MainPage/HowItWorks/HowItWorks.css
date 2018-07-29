@@ -1,0 +1,41 @@
+#how-it-works {
+    text-align: center;
+    background-color: rgb(222,243,248);
+}
+
+#how-it-works h1 {
+    color: rgb(90,185,210);
+    padding: 3rem 3rem 1.5rem 3rem;
+}
+
+#trust {
+    padding: 2rem 4rem;
+    text-align: left;
+    display: inline-block;
+    background-color: white;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.2);
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+#trust span {
+    display: block;
+    color: rgb(240,132,50);
+}
+
+#trust span em {
+    text-decoration: underline;
+    font-style: normal;
+}
+
+#trust span i {
+    color: black;
+    font-style: normal;
+}
+
+#step-by-step {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-evenly;
+}

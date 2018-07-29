@@ -1,0 +1,9 @@
+#google-play-a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#google-play-img {
+    width: 150px;
+}

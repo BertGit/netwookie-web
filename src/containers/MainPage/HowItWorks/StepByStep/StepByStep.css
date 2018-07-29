@@ -1,0 +1,15 @@
+.single-step {
+    display: flex;
+    flex-flow: column;
+    padding: 0 3rem 3rem 3rem;
+    align-items: center;
+}
+
+.single-step img {
+    width: 200px;
+    margin-bottom: 1rem;
+}
+
+.single-step span {
+    display: block;
+}

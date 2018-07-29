@@ -1,0 +1,43 @@
+#toolbar {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    padding: 0.3rem 2rem;
+}
+
+#toolbar ul {
+    list-style: none;
+    display: flex;
+    margin-right: auto;
+}
+
+@media(max-width: 768px) {
+    #toolbar {
+        padding: 0.3rem 1rem;
+    }
+}
+
+#toolbar .logo {
+    width: 150px;
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+}
+
+@media (max-width: 768px) {
+    #toolbar .logo {
+        width: 120px;
+    }
+}
+
+#navbar {
+    display: flex;
+    flex-grow: 1;
+}

@@ -1,0 +1,73 @@
+#banner {
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-image: url('/img/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 700px;
+}
+
+#hero {
+    margin-left: 10%;
+    padding-bottom: 5%;
+}
+
+#hero h1 {
+    color: white;
+    text-shadow: 2px 2px 4px  #333;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+#hero h2 {
+    color: rgb(250,200,90);
+    text-shadow: 2px 2px 4px  #333;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+#hero a {
+    margin-top: 10px;
+    font-size: 0.8rem;
+}
+
+#driver-details {
+    position: absolute;
+    background-color: white;
+    right: 0;
+    bottom: 0;
+    padding: 2rem 5rem 2rem 3rem;
+}
+
+#driver-details #arrow-left  {
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: -20px;
+    top: 30%;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid white;
+}
+
+#driver-details #driver  {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+#driver-details #driver img {
+    width: 80px;
+    margin-right: 20px;
+    border-radius: 50%;
+    border: 3px solid rgb(240,132,50);
+}
+
+#driver-details span {
+    display: block;
+    padding: 0.3rem 0;
+}
