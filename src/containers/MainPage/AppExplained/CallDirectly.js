@@ -6,20 +6,20 @@ import '../../../css/Container.css'
 
 import './AppExplained.css'
 
-import phoneScreenImg from '../../../assets/images/phone-screen-service.png'
+import phoneScreenImg from '../../../assets/images/phone-screen-call.png'
 
 let choose = (props) => {
     return (
         <Aux>
             <div className='container app-explained'>
-                <div className='hero'>
-                    <h1>Choose the service that you need</h1>
-                    <span>Looking for a safe and reliable boda boda driver?</span>
-                    <span>Need a last minute tailor?</span>
-                    <span>Want to hire a chef for a big family dinner a month in advance?</span>
-                </div>
                 <div className='phone'>
                     <PhoneScreen img={phoneScreenImg} />
+                </div>
+                <div className='hero'>
+                    <h1>Call directly to arrange a job</h1>
+                    <span>Call a Pro and arrange terms of the service.</span>
+                    <span>What fair pricing?</span>
+                    <span>A service for now or later?</span>
                 </div>
             </div>
         </Aux>

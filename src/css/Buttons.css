@@ -46,6 +46,25 @@ button {
     box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.5);
 }
 
+.btn-orange {
+    border-radius: 0;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: rgb(240,132,50);
+    padding: 1rem 3rem;
+}
+
+.btn-orange:hover {
+    color: #fff;
+    background-color: rgba(240,132,50,0.8);
+    border-color: rgba(240,132,50,0.1);;
+}
+
+.btn-orange:focus, .btn-orange.focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(208, 215, 223, 0.356);
+}
+
 .btn-light {
     color: #212529;
     background-color: #f8f9fa;
@@ -70,7 +89,7 @@ button {
   border-color: #f8f9fa;
   text-transform: uppercase;
   border-radius: 0;
-  padding: .5rem 1rem;
+  padding: 0.7rem 2rem;
 }
 
 .btn-outline-light:hover {

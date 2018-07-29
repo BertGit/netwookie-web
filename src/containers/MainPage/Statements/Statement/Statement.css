@@ -1,0 +1,39 @@
+.statement {
+    display: flex;
+    flex-direction: column;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.statement .content {
+    position: relative;
+    text-align: left;
+    background-color: white;
+    font-size: 1.3rem;
+    padding: 2rem;
+    box-shadow: 0 0 30px 0 rgba(0,0,0,0.2);
+}
+
+.statement .content .triangle {
+    position: absolute;
+    left: 0;
+    bottom: -50px;
+    width: 0;
+    height: 0;
+    border-top: 50px solid white;
+    border-left: 50px solid white;
+    border-right: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+}
+
+.statement-author {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    margin-top: 1.5rem;
+}
+
+.statement-author span {
+    display: block;
+    color: white;
+}

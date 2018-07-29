@@ -1,7 +1,7 @@
 import React from 'react'
 
 import './Toolbar.css'
-import Link from './Link/Link'
+import NavLink from '../NavLink/NavLink'
 import GooglePlayLink from '../GooglePlayLink/GooglePlayLink'
 import logo from '../../assets/images/netwookie-logo.png'
 
@@ -19,12 +19,12 @@ class Toolbar extends React.PureComponent {
                 <img src={logo} className='logo' alt='Netwookie' />
                 <div id='navbar'>
                     <ul>
-                        <Link name="Become a Pro" />
-                        <Link name="About" />
-                        <Link name="Support" />
-                        <Link name="News" />
+                        <NavLink name="Become a Pro" />
+                        <NavLink name="About" />
+                        <NavLink name="Support" />
+                        <NavLink name="News" />
                     </ul>
-                    <GooglePlayLink />
+                    <div className='google-play-link'> <GooglePlayLink /></div>
                 </div>
             </nav>
         )

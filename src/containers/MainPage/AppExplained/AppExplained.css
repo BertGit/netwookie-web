@@ -2,15 +2,25 @@
     position: relative;
     display: flex;
     align-items: center;
-    height: 500px;
     justify-content: space-around;
+}
+
+.app-explained-center {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 500px;
+}
+
+.app-explained-center h1 {
+    padding-top: 3rem;
 }
 
 .app-explained .hero {
     width: 30%;
 }
 
-.app-explained .hero h1 {
+.app-explained h1 {
     color: white;
 }
 
@@ -19,9 +29,14 @@
     padding-top: 0.5rem;
 }
 
-.phone {
+.app-explained .phone {
     height: 100%;
+    margin-top: 80px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+}
+
+.app-explained-center .phone {
+    margin-top: 40px;
 }

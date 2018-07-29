@@ -4,6 +4,7 @@ import { configureAnchors } from 'react-scrollable-anchor'
 import Aux from '../Aux/Aux'
 import Toolbar from '../../components/Toolbar/Toolbar'
 import MainPage from '../../containers/MainPage/MainPage'
+import Footer from '../../containers/Footer/Footer'
 import { Route, Switch } from 'react-router-dom'
 
 class Layout extends React.Component {
@@ -28,6 +29,7 @@ class Layout extends React.Component {
                         } />
                     </Switch>
                 </main>
+                <Footer />
             </Aux>
         )
     }

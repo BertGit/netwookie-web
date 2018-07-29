@@ -1,0 +1,24 @@
+#become-a-pro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+#become-a-pro h1 {
+    color: rgb(240,132,50);
+    font-size: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 0;
+}
+
+#become-a-pro span {
+    display: block;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+
+#become-a-pro .google-play-link {
+    width: 250px;
+}

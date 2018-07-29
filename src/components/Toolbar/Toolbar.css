@@ -9,6 +9,7 @@
     left: 0;
     z-index: 1030;
     padding: 0.3rem 2rem;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.2);
 }
 
 #toolbar ul {
@@ -40,4 +41,9 @@
 #navbar {
     display: flex;
     flex-grow: 1;
+}
+
+#toolbar .google-play-link {
+    display: flex;
+    width: 150px;
 }
