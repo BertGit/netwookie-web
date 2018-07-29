@@ -3,6 +3,8 @@
     flex-direction: column;
     margin-left: 3rem;
     margin-right: 3rem;
+    font-size: 90%;
+    width: 350px;
 }
 
 .statement .content {

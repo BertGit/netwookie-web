@@ -18,9 +18,9 @@ let banner = (props) => {
                     <img src={jeremy} alt="bodaboda-driver" />
                     <span>Jeremy</span>
                 </div>
-                <span>Motorbike Driver</span>
-                <span>3 SHARED CONTACTS</span>
-                <span>Anna, Fred & Mum</span>
+                <span id='motorbike-driver'>Motorbike Driver</span>
+                <span id='shared-contacts'>3 SHARED CONTACTS</span>
+                <span id='shared-contacts-names'>Anna, Fred & Mum</span>
             </div>
         </div>
     )
